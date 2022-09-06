@@ -20,6 +20,14 @@ public class Student {
         this.email = email;
         this.idClass = idClass;
     }
+    public Student(int id, String name, Date dateOfBirth, String address, String phone, String email) {
+        this.id = id;
+        this.name = name;
+        this.dateOfBirth = dateOfBirth;
+        this.address = address;
+        this.phone = phone;
+        this.email = email;
+    }
 
     public Student(String name, Date dateOfBirth, String address, String phone, String email, int idClass) {
         this.name = name;
@@ -29,7 +37,6 @@ public class Student {
         this.email = email;
         this.idClass = idClass;
     }
-
     public Student(int id, String name, Date dateOfBirth, String address, String email) {
         this.id = id;
         this.name = name;
